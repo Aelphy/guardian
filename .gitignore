@@ -1,0 +1,6 @@
+data
+logs
+weights
+share
+.ipynb_checkpoints
+*.pyc
