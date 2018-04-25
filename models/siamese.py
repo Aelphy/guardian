@@ -56,7 +56,7 @@ def abs_difference(vects):
     x, y = vects
     return K.abs(x - y)
 
-def build_siamese(input_shape, num_units_start, num_units_top, feature_extractor):
+def build(input_shape, num_units_start, num_units_top, feature_extractor):
     '''
         creates the architecture for siamese classification
     '''
